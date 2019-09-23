@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhongan.shield.hill.mapper.ActActivityDao">
+
+	<resultMap id="BaseResultMap" type="com.zhongan.shield.hill.model.ActActivity">
+		<id column="id" property="id" />
+		<id column="code" property="code" />
+		<id column="name" property="name" />
+		<id column="start_time" property="startTime" />
+		<id column="end_time" property="endTime" />
+		<id column="show_start_time" property="showStartTime" />
+		<id column="show_end_time" property="showEndTime" />
+		<id column="department_code" property="departmentCode" />
+		<id column="department_name" property="departmentName" />
+		<id column="manager" property="manager" />
+		<id column="channel" property="channel" />
+		<id column="budgets" property="budgets" />
+		<id column="url" property="url" />
+		<id column="template" property="template" />
+		<id column="template_config" property="templateConfig" />
+		<id column="share_title" property="shareTitle" />
+		<id column="share_desc" property="shareDesc" />
+		<id column="share_img" property="shareImg" />
+		<id column="share_url" property="shareUrl" />
+		<id column="ilog_page_id" property="ilogPageId" />
+		<id column="domains" property="domains" />
+		<id column="is_deleted" property="isDeleted" />
+		<id column="creator" property="creator" />
+		<id column="gmt_created" property="gmtCreated" />
+		<id column="modifier" property="modifier" />
+		<id column="gmt_modified" property="gmtModified" />
+	</resultMap>
+	<sql id="Base_Column_List">
+		id, code, name, start_time, end_time, show_start_time, show_end_time, department_code, department_name, manager, channel, budgets, url, template, template_config, share_title, share_desc, share_img, share_url, ilog_page_id, domains, is_deleted, creator, gmt_created, modifier, gmt_modified
+	</sql>
+	
+</mapper>
